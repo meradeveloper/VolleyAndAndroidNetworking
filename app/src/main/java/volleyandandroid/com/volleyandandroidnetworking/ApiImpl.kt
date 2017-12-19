@@ -9,7 +9,6 @@ import org.json.JSONObject
  */
   open class ApiImpl (context:Context) {
 
-
     init {
         //VolleyApi.apiPrsntr=apiPrsntr
         VolleyApi.context=context
