@@ -1,9 +1,7 @@
 package learnkotlin.com.learnkotlin.Common.WebApiModule
 
-import com.androidnetworking.AndroidNetworking
-import com.androidnetworking.common.Priority
-import com.androidnetworking.error.ANError
-import com.androidnetworking.interfaces.JSONArrayRequestListener
+
+import android.renderscript.RenderScript
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -36,7 +34,7 @@ class AndroidNetworkingApi  {
             AndroidNetworking.post(ApiImpl.URL)
                     .addJSONObjectBody(ApiImpl.JSONOBJECTBODY)
                     .setContentType("application/json; charset=utf-8") // custom ContentType
-                    .setPriority(Priority.HIGH)
+                    .setPriority(RenderScript.Priority.HIGH)
                     .build()
                     .getAsJSONArray(object : JSONArrayRequestListener {
                         override fun onResponse(response: JSONArray) {
