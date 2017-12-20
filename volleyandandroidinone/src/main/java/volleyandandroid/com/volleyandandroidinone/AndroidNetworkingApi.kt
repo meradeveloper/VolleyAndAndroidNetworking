@@ -1,4 +1,4 @@
-package learnkotlin.com.learnkotlin.Common.WebApiModule
+package volleyandandroid.com.volleyandandroidinone;
 
 import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.common.Priority
@@ -14,7 +14,7 @@ class AndroidNetworkingApi  {
 
 
     companion object {
-        lateinit var apiPrsntr:ApiPrsntr
+        lateinit var apiPrsntr: ApiPrsntr
     }
 
 
