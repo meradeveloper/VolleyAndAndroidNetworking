@@ -7,7 +7,7 @@ import org.json.JSONObject
 /**
  * Created by Localadmin on 11/15/2017.
  */
-  class ApiImpl (context:Context) {
+  open class ApiImpl (context:Context) {
 
 
     init {
